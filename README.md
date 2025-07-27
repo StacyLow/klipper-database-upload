@@ -5,15 +5,15 @@ If you are self hosting a Postgres database, please see: https://github.com/Stac
 
 ## How to install
 
-### 1. SSH into you printer.
+  1. SSH into you printer.
 
-### 2. Run ```git clone https://github.com/StacyLow/klipper-database-upload.git```
+  2. Run ```git clone https://github.com/StacyLow/klipper-database-upload.git```
 
-### 3. Change to klipper-database-upload directory: ```cd klipper-database-upload/```
+  3. Change to klipper-database-upload directory: ```cd klipper-database-upload/```
 
-### 4. Make install.sh executable: ```chmod +x install.sh```
+  4. Make install.sh executable: ```chmod +x install.sh```
 
-### 5. Run ```./install.sh```
+  5. Run ```./install.sh```
 
-### 6. Follow the prompts on screen.
+  6. Follow the prompts on screen.
 
