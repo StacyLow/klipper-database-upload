@@ -22,10 +22,10 @@ If you are self hosting a Postgres database, please see: https://github.com/Stac
      chmod +x install.sh
      ```
 
-  8. Run 
-    ```bash
+  8. Run
+     ```bash
      ./install.sh
-    ```
+     ```
 
   10. Follow the prompts on screen.
 
