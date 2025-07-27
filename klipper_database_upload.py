@@ -43,6 +43,10 @@ uploaded = 0
 
 for row in rows:
     filename, status, total_duration, start_time, end_time, metadata_blob = row
+    
+    if status =="in_progess":
+        skipped += 1
+        continue
 
     # Skip if print_start or print_end matches existing record
     if (start_time, end_time) in existing_print_times or (start_time,) in existing_print_times or (end_time,) in existing_print_times:
