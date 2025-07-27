@@ -1,9 +1,10 @@
 import sqlite3
 import psycopg2
+import getpass
 import json
 import os
 
-USER = os.environ["USER"]
+USER = getpass.getuser()
 PRINTER_NAME = os.getenv("PRINTER_NAME")
 DB_HOST = os.getenv("DB_HOST")
 DB_PORT = os.getenv("DB_PORT")
