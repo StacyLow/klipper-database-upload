@@ -4,7 +4,7 @@ import getpass
 import json
 import os
 
-USER = getpass.getuser()
+USER = os.getenv("PI_USER")
 PRINTER_NAME = os.getenv("PRINTER_NAME")
 DB_HOST = os.getenv("DB_HOST")
 DB_PORT = os.getenv("DB_PORT")

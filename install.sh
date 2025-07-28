@@ -12,6 +12,7 @@ DB_PORT=${DB_PORT:-5432}
 read -p "4. Enter PostgreSQL database name: " DB_NAME
 read -p "5. Enter PostgreSQL user: " DB_USER
 read -s -p "6. Enter PostgreSQL password: " DB_PASSWORD
+read -s "7. Enter PostgreSQL password: " PI_USER
 echo
 
 # 2. Prompt for frequency (in minutes)
@@ -27,6 +28,7 @@ VENV_DIR="$SCRIPT_DIR/venv"
 # 4. Create .env file
 echo "Creating .env file..."
 cat > "$ENV_FILE" <<EOF
+PI_USER=$PI_USER
 PRINTER_NAME=$PRINTER_NAME
 DB_HOST=$DB_HOST
 DB_PORT=$DB_PORT
