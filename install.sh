@@ -12,7 +12,7 @@ DB_PORT=${DB_PORT:-5432}
 read -p "4. Enter PostgreSQL database name: " DB_NAME
 read -p "5. Enter PostgreSQL user: " DB_USER
 read -s -p "6. Enter PostgreSQL password: " DB_PASSWORD
-read -s "7. Enter PostgreSQL password: " PI_USER
+read -s "7. Enter Pi user: " PI_USER
 echo
 
 # 2. Prompt for frequency (in minutes)
