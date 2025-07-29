@@ -6,7 +6,7 @@ echo "=== Klipper Database Upload Installer ==="
 
 # 1. Prompt for environment variables
 read -p "1. Enter printer name: " PRINTER_NAME
-read -s "2. Enter Pi user: " PI_USER
+read -p "2. Enter Pi user: " PI_USER
 read -p "3. Enter PostgreSQL host: " DB_HOST
 read -p "4. Enter PostgreSQL port [5432]: " DB_PORT
 DB_PORT=${DB_PORT:-5432}
