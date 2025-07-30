@@ -29,3 +29,8 @@ If you are self hosting a Postgres database, please see: https://github.com/Stac
 
   10. Follow the prompts on screen.
 
+  11. If you want to populate the DB now, run
+      ```bash
+      ./run_klipper_upload.sh
+      ```
+
